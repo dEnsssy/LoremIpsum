@@ -1,0 +1,135 @@
+/* Null style */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:wght@800&display=swap");
+
+/* Mane style */
+body {
+    font-weight: 400;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+
+    line-height: normal;
+}
+.container {
+    max-width: 61%;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background: rgba(16, 16, 29, 0.9);
+    position: sticky;
+    top: 0;
+}
+.header__content {
+    padding: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__content-left h1 {
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.header__content-left span {
+    color: #42a9ed;
+}
+.header__content-right ul {
+    display: flex;
+    gap: 60px;
+}
+.header__content-right a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header__btn-active {
+    color: #43abf0 !important;
+}
+
+
